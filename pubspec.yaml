@@ -1,0 +1,27 @@
+name: trueid_nia_sdk
+description: Native Ghana Card (NIA) PIN + selfie verification with guided liveness for Flutter, including Fast Track re-verification.
+version: 1.0.0
+homepage: https://github.com/elimichaells/trueid-nia-flutter-sdk
+repository: https://github.com/elimichaells/trueid-nia-flutter-sdk
+issue_tracker: https://github.com/elimichaells/trueid-nia-flutter-sdk/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.trueid.nia.flutter
+        pluginClass: TrueIdNiaPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  trueid_core: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
