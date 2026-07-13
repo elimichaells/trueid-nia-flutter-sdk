@@ -1,3 +1,12 @@
+## 1.0.2
+
+* Updates the native Android dependency to `trueid-nia-sdk:1.1.0`:
+  organization-driven light/dark/auto theme mode and a full visual
+  redesign matching the document SDK's step-header/gradient/footer
+  treatment. Also requires `trueid_core: ^1.0.2` for its automatic
+  contrast-enforcement and theme-aware color-token fixes.
+* No Dart-facing API changes.
+
 ## 1.0.1
 
 * Requires `trueid_core: ^1.0.1` for the shared selfie engine's lighting/

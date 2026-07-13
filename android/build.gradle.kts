@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.trueid.nia.flutter"
-version = "1.0.0"
+version = "1.0.2"
 
 android {
     namespace = "com.trueid.nia.flutter"
@@ -33,6 +33,6 @@ dependencies {
     if (localNia != null) {
         add("api", localNia)
     } else {
-        add("api", "com.trueid.sdk:trueid-nia-sdk:1.0.0")
+        add("api", "com.trueid.sdk:trueid-nia-sdk:1.1.0")
     }
 }
