@@ -1,3 +1,10 @@
+## 1.0.1
+
+* Requires `trueid_core: ^1.0.1` for the shared selfie engine's lighting/
+  blink/multi-face/head-roll gating, face-region AE metering, and shutter
+  sound + flash feedback, plus a packaging fix that silently required host
+  apps to raise `compileSdk` to 36.
+
 ## 1.0.0
 
 * Initial release: native Ghana Card (NIA) PIN + selfie verification, split
