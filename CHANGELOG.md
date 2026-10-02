@@ -1,3 +1,8 @@
+## 1.0.3
+
+* Updates the native Android dependency to `trueid-nia-sdk:1.1.1`
+  (verification screen fixes).
+
 ## 1.0.2
 
 * Updates the native Android dependency to `trueid-nia-sdk:1.1.0`:

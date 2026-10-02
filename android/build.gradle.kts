@@ -33,6 +33,6 @@ dependencies {
     if (localNia != null) {
         add("api", localNia)
     } else {
-        add("api", "com.trueid.sdk:trueid-nia-sdk:1.1.0")
+        add("api", "com.trueid.sdk:trueid-nia-sdk:1.1.1")
     }
 }
